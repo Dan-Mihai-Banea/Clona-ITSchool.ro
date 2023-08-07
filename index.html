@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <!-- Adaugam metatag-urile pentru Google -->
+        <title>IT School</title>
+        <meta name="description" content="O replică a site-ului itschool.ro" />
+
+        <!-- Includem font-urile prima oara -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" />
+
+        <!-- Pentru iconite -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+        <!-- Includem CSS-urile noastre -->
+        <link rel="stylesheet" href="nav.css" />
+        <link rel="stylesheet" href="general.css" />
+        <link rel="stylesheet" href="index.style.css" />
+
+    </head>
+
+
+    <body>
+
+        <!-- INCEPUT NAVIGATION BAR -->
+
+        <nav>
+
+            <div class="container">
+
+                <div class="logo-nav">
+                    <a href="index.html" class="logo-link">
+                        <img src="https://itschool-clone.netlify.app/img/itschool-logo.png" alt="ITSchool logo">
+                    </a>
+                </div>
+
+                <div class="menu-container">
+                        <span class="material-icons menu-icon">
+                            menu
+                        </span>
+                        <input type="checkbox" />
+                    <ul class="menu-nav">
+                        <li>
+                            <a href="Cursuri/cursuri.html">cursuri online</a>
+                        </li>
+                        <li class="despre">
+                            <a href="Despre/despre.html">
+                                despre noi
+                                <span class="material-icons arrow-down-icon">
+                                    arrow_drop_down
+                                </span>
+                            </a>
+
+                            <!-- SUBMENIU -->
+                            <div class="submenu">
+                                <a href="index.html">it school</a>
+                                <a href="Despre/despre.html">despre noi</a>
+                                <a href="Despre mine/despre.mine.html">despre dan :)</a>
+                            </div>
+                            <!-- SUBMENIU -->
+
+                        </li>
+                        <li>
+                            <a href="Contact/contact.html">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- SFARSIT NAVIGATION BAR -->
+
+        <main>
+
+            <!-- INCEPUT SECTIUNE WELCOME -->
+            
+            <section class="welcome">
+
+                <div class="container">
+
+                    <h1>Bine ai venit!</h1>
+                    <p>Accelerator de cariere in <span>{</span>web development<span>}</span></p>
+                    
+                    <div class="welcome-img">
+                        Cursuri IT pentru incepatori cu certificare
+                        <img src="https://itschool-clone.netlify.app/img/microsoft.png" alt="Microsoft">
+                        <img src="https://itschool-clone.netlify.app/img/adobe.png" alt="Adobe">
+                        <img src="https://itschool-clone.netlify.app/img/apple.png" alt="Apple">
+                        <img src="https://itschool-clone.netlify.app/img/minister.png" alt="Minister">
+                    </div>
+
+                    <a href="Cursuri/cursuri.html">afla mai multe</a>
+
+                </div>
+            
+            </section>
+
+            <!-- INCEPUT SECTIUNE CALENDAR -->
+
+            <section class="calendar">
+
+                <div class="container">
+
+                    <h2 class="titlu-sectiune">Calendar cursuri</h2>
+
+                    <div class="grid-container">
+
+                        <div class="grid-item">
+                            
+                            <div class="card-calendar">
+                                <div class="curs">
+                                    <h3>Python</h3>
+                                    <div class="curs-info">
+                                        <span class="data">
+                                            <span class="material-icons">today</span>
+                                            <span>In curand</span>
+                                        </span>
+                                        <span class="locatie">
+                                            <span class="material-icons">location_on</span>
+                                            <span>Online</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+
+                        </div>
+
+                        <div class="grid-item">
+                            
+                            <div class="card-calendar">
+                                <div class="curs">
+                                    <h3>Web Development</h3>
+                                    <div class="curs-info">
+                                        <span class="data">
+                                            <span class="material-icons">today</span>
+                                            <span>In curand</span>
+                                        </span>
+                                        <span class="locatie">
+                                            <span class="material-icons">location_on</span>
+                                            <span>Online</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+
+                        </div>
+
+                        <div class="grid-item">
+                            
+                            <div class="card-calendar">
+                                <div class="curs">
+                                    <h3>Introducere in IT</h3>
+                                    <div class="curs-info">
+                                        <span class="data">
+                                            <span class="material-icons">today</span>
+                                            <span>In curand</span>
+                                        </span>
+                                        <span class="locatie">
+                                            <span class="material-icons">location_on</span>
+                                            <span>Online</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+
+                        </div>
+
+                        <div class="grid-item">
+                            
+                            <div class="card-calendar">
+                                <div class="curs">
+                                    <h3>Programare C++</h3>
+                                    <div class="curs-info">
+                                        <span class="data">
+                                            <span class="material-icons">today</span>
+                                            <span>In curand</span>
+                                        </span>
+                                        <span class="locatie">
+                                            <span class="material-icons">location_on</span>
+                                            <span>Online</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+
+                        </div>
+
+                        <div class="grid-item">
+                            
+                            <div class="card-calendar">
+                                <div class="curs">
+                                    <h3>Programare Java</h3>
+                                    <div class="curs-info">
+                                        <span class="data">
+                                            <span class="material-icons">today</span>
+                                            <span>In curand</span>
+                                        </span>
+                                        <span class="locatie">
+                                            <span class="material-icons">location_on</span>
+                                            <span>Online</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+
+                        </div>
+
+                        <div class="grid-item">
+                            
+                            <div class="card-calendar">
+                                <div class="curs">
+                                    <h3>Graphic Design</h3>
+                                    <div class="curs-info">
+                                        <span class="data">
+                                            <span class="material-icons">today</span>
+                                            <span>In curand</span>
+                                        </span>
+                                        <span class="locatie">
+                                            <span class="material-icons">location_on</span>
+                                            <span>Online</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- INCEPUT SECTIUNE DESPRE -->
+
+            <section class="despre-sectiune">
+
+                <div class="container">
+
+                    <h2 class="titlu-sectiune">Ce este IT School?</h2>
+
+                    <p>IT School este o comunitate educațională de IT, locul unde pasionații acestui domeniu
+                        se întâlnesc cu viitorii profesioniști. Timp de peste 7 ani, am construit alături de
+                        trainerii IT School un mediu de învățare specializat pentru toți cei care își doresc
+                        să descopere oportunitățile acestui domeniu. Ești pregătit să faci parte din comunitatea IT School?</p>
+
+                    <div class="grid-container">
+
+                        <div class="grid-item"><img src="https://itschool-clone.netlify.app/img/about-us-1.jpeg" alt=""></div>
+                        <div class="grid-item"><img src="https://itschool-clone.netlify.app/img/about-us-2.jpeg" alt=""></div>
+                        <div class="grid-item"><img src="https://itschool-clone.netlify.app/img/about-us-3.jpeg" alt=""></div>
+                        <div class="grid-item"><img src="https://itschool-clone.netlify.app/img/about-us-4.jpeg" alt=""></div>
+                        <div class="grid-item"><img src="https://itschool-clone.netlify.app/img/about-us-5.jpeg" alt=""></div>
+                        <div class="grid-item"><img src="https://itschool-clone.netlify.app/img/about-us-6.jpeg" alt=""></div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- INCEPUT SECTIUNE PARTENERI -->
+
+            <section class="parteneri">
+
+                <div class="container">
+
+                    <h2 class="titlu-sectiune">Parteneri</h2>
+                
+                    <div class="container-parteneri">
+                    
+                        <div class="imagine-parteneri">
+                            <img src="https://itschool-clone.netlify.app/img/toluna.png" alt="">
+                        </div><div class="imagine-parteneri">
+                            <img src="https://itschool-clone.netlify.app/img/123formbuilder.png" alt="">
+                        </div><div class="imagine-parteneri">
+                            <img src="https://itschool-clone.netlify.app/img/nagarro.png" alt="">
+                        </div><div class="imagine-parteneri">
+                            <img src="https://itschool-clone.netlify.app/img/cognizant.png" alt="">
+                        </div><div class="imagine-parteneri">
+                            <img src="https://itschool-clone.netlify.app/img/dreamproduction.png" alt="">
+                        </div><div class="imagine-parteneri">
+                            <img src="https://itschool-clone.netlify.app/img/ness.png" alt="">
+                        </div><div class="imagine-parteneri">
+                            <img src="https://itschool-clone.netlify.app/img/instapage.png" alt="">
+                        </div><div class="imagine-parteneri">
+                            <img src="https://itschool-clone.netlify.app/img/amdaris.png" alt="">
+                        </div><div class="imagine-parteneri box1">
+                            <img src="https://itschool-clone.netlify.app/img/fortech.png" alt="">
+                        </div><div class="imagine-parteneri box2">
+                            <img src="https://itschool-clone.netlify.app/img/visma.png" alt="">
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+
+            <div class="container">
+                <p>IT School România © 2021. Toate drepturile rezervate.</p>
+            </div>
+
+        </footer>
+
+    </body>
+
+</html>
